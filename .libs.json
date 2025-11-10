@@ -1,0 +1,19 @@
+{
+  "ApplyChangeToSpace": false,
+  "Jar": {
+    "MavenArtifacts": [],
+    "S3Paths": [],
+    "LocalPaths": [],
+    "OtherPaths": []
+  },
+ "Python": {
+    "CondaPackages": {
+      "Channels": [],
+      "PackageSpecs": []
+    },
+    "PyPIPackages": [],
+    "S3Paths": ["s3://env-blueprint-access-7ka84f9t39wuj5omp5o83og7znr3saps3b-s3alias/python_library/sagemaker_studio.zip"],
+    "LocalPaths": [],
+    "OtherPaths": []
+  }
+}
