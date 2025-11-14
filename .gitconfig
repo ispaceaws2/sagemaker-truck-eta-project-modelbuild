@@ -1,0 +1,6 @@
+[credential]
+	UseHttpPath = true
+	helper = store
+[user]
+	email = arn:aws:iam::316348991122:user/Revanth
+	name = Revanth
