@@ -1,2 +1,15 @@
-.*
+# Ignore SageMaker-generated directory
+.aws/
+.jupyter/
+.workflows_setup/
+src_backup/
+.git-credentials
+
+# Python ignores
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE ignores
+.ipynb_checkpoints/
