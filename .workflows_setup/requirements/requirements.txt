@@ -5,3 +5,7 @@ amzn_sagemaker_studio
 amzn_SagemakerWorkflowsOperator
 
 
+# Place any requirements you'd like included in your workflows environment here
+# Note that you will need to restart your space for changes to take effect.
+# For example:
+# numpy==1.26.4

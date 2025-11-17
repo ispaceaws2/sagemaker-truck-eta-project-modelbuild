@@ -1,6 +1,6 @@
 [credential]
 	UseHttpPath = true
-	helper = store
+	helper = "!aws --profile DomainExecutionRoleCreds --region ap-south-1 codecommit credential-helper --ignore-host-check "
 [user]
 	email = arn:aws:iam::316348991122:user/Revanth
 	name = Revanth

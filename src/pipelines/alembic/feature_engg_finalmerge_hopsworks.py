@@ -72,7 +72,7 @@ def run_data_quality_check(data_name, reference_data, current_data, timestamp):
     s3 = boto3.client('s3')
     tests.save_html(base_dir+data_name+"_results.html")
 
-    s3.upload_file(base_dir+data_name+"_results.html", "truck-eta-classification-logs", "reports/"+timestamp+"/"+data_name+"_results.html")
+    s3.upload_file(base_dir+data_name+"_results.html", "truck-eta-classification-logs2", "reports/"+timestamp+"/"+data_name+"_results.html")
 
     return tests, tests.json()
 
